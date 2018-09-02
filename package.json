@@ -1,0 +1,23 @@
+{
+  "name": "amcravila-extract-links",
+  "version": "1.0.0",
+  "description": "Biblioteca que extrai links de arquivo markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "getLinksFromMd()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amcravila/aa-extractlinks.git"
+  },
+  "keywords": [
+    "getlinks",
+    "extractlinks"
+  ],
+  "author": "Amanda Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amcravila/aa-extractlinks/issues"
+  },
+  "homepage": "https://github.com/amcravila/aa-extractlinks#readme"
+}
