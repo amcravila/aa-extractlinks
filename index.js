@@ -16,9 +16,7 @@ const getLinksFromMd = (textMd) => {
     return [];
   }
 
-  if (typeof textMd === 'string' && url) {
-    return makeObject(url, nameUrl);
-  }
+  return makeObject(url, urlName);
 
   function makeObject(url, urlName) {
     const obj = [];

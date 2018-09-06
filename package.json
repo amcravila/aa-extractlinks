@@ -1,6 +1,6 @@
 {
   "name": "aa-extractlinks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca que extrai links de arquivo markdown",
   "main": "index.js",
   "scripts": {
