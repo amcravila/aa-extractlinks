@@ -1,10 +1,13 @@
 {
-  "name": "amcravila-extract-links",
+  "name": "aa-extractlinks",
   "version": "1.0.0",
   "description": "Biblioteca que extrai links de arquivo markdown",
   "main": "index.js",
   "scripts": {
-    "test": "getLinksFromMd()"
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha test/**/*.spec.js --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/amcravila/aa-extractlinks/issues"
   },
-  "homepage": "https://github.com/amcravila/aa-extractlinks#readme"
+  "homepage": "https://github.com/amcravila/aa-extractlinks#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
 }
