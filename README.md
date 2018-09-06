@@ -1,4 +1,4 @@
-# Extrator de links de arquivo Markdown v.1.0.1
+# Extrator de links de arquivo Markdown v.1.0.3
 
 **Esta biblioteca se destina a validação de dados de cartão de crédito, para uso em aplicações web.**
 Na versão atual, efetua a validação de número de cartão de crédito.
@@ -25,7 +25,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 ```
 
 
-## versão 1.0.1
+## versão 1.0.3
 
 - funcionalidades: dada uma string, a lib devolve um array de objetos com os links encontrados.
 
@@ -41,5 +41,5 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 #### versão 2.0.0 (previsão dezembro/2018)
 - README em inglês
 
-#### versão 1.0.1 (released)
+#### versão 1.0.3 (released)
 - funcionalidades: a função recebe uma string e devolve um array de objetos com os links encontrados.
